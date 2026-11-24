@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadAdpieAdapter", targets: ["BidmadAdpieAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.4")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
     .package(url: "https://github.com/gomfactory/AdPie-iOS-SDK.git", exact: "1.6.16"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadAdpieAdapter",
-      url: "https://github.com/bidmad/BidmadAdpieAdapter-SPM/releases/download/7.2.0-dev.4+1.6.16/BidmadAdpieAdapter.xcframework.zip",
-      checksum: "6b07e080a3d0d9c566ab615a6095a0701ed36301088dc756877db779f754558f"
+      url: "https://github.com/bidmad/BidmadAdpieAdapter-SPM/releases/download/7.2.0-dev.5+1.6.16/BidmadAdpieAdapter.xcframework.zip",
+      checksum: "3dd9ae6ccb02b3ecb571f6b6acd28a9dac4429930322cec6533e4bae69e5027a"
     ),
   ]
 )
